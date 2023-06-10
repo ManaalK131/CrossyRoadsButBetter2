@@ -30,7 +30,7 @@ public class Buttons{
       
     }
     else {
-      clicked = false ;
+      //clicked = false ;
       pressed = false;
     }
     

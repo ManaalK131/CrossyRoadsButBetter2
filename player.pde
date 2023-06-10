@@ -1,4 +1,3 @@
-
 public class player{
 protected PImage player;
 protected int x = 400;
@@ -11,18 +10,18 @@ void move(){
  if(keyPressed){
    if(key == CODED){
      if(keyCode==UP){
-       disy -= 3;
-       disby -= 3;
+       disy -= 2;
+       disby -= 2;
      }
      else if(keyCode==DOWN){
-       disy += 3;
-       disby += 3;
+       disy += 2;
+       disby += 2;
      }
         if(keyCode==LEFT){
-         x -= 3;
+         x -= 2;
        }
        else if(keyCode ==RIGHT){
-         x += 3;
+         x += 2;
        }
 }
  }
